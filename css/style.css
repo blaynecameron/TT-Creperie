@@ -146,6 +146,7 @@ nav {
 
 @media (min-width: 300px) and (max-width: 605px) {
 	.logo {
+		margin-top: 80px;
 		width: 280px;
 	}
 
