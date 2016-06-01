@@ -146,7 +146,6 @@ nav {
 
 @media (min-width: 300px) and (max-width: 605px) {
 	.logo {
-		margin-top: 80px;
 		width: 280px;
 	}
 
@@ -329,26 +328,6 @@ nav {
 }
 
 /* OPENING HOURS */
-.openingHours {
-	background: url('../images/openingHoursLeafBurst.png');
-	background-repeat:no-repeat;
-	background-position:center;
-	min-height: 1020px;
-	min-width: 80%;
-	padding-top: 10px;
-}
-
-.openingHourBorder {
-	border-style: double;
-	border-width: 8px;
-	border-color: #F8F6F6;
-	background-color: white;
-	margin: 0 auto; /* centers the border */
-	margin-top: 150px;
-	width: 520px;
-	height: 720px;
-}
-
 h5 {
 	font-family: "Delius Swash Caps";
 	font-size: 48px;
@@ -416,6 +395,27 @@ h5 {
 	}
 }
 
+@media (min-width: 560px) {
+	.openingHours {
+		background: url('../images/openingHoursLeafBurst.png');
+		background-repeat:no-repeat;
+		background-position:center;
+		min-height: 1020px;
+		min-width: 80%;
+		padding-top: 10px;
+	}
+
+	.openingHourBorder {
+		border-style: double;
+		border-width: 8px;
+		border-color: #F8F6F6;
+		background-color: white;
+		margin: 0 auto; /* centers the border */
+		margin-top: 150px;
+		width: 520px;
+		height: 720px;
+	}
+}
 
 
 
