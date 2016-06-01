@@ -405,12 +405,21 @@ h5 {
 	}
 
 	.times li {
-		margin-bottom: 30px;
+		margin-bottom: 25px;
+	}
+
+	.treehouseLogoLink {
+		width: 180px;
+	}
+
+	.menuButton {
+		width: 240px;
 	}
 
 	.mediaMentions a {
 		margin-right: 20px;
 	}
+
 }
 
 @media (min-width: 560px) {
