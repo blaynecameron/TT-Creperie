@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>Tea Tree Creperie</title>
+
+	<!-- Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Itim' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Delius+Swash+Caps' rel='stylesheet' type='text/css'>
+	
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive-nav.css">
+
+	<!-- JS -->
+	<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+	<script type="text/javascript" src="js/responsive-nav.js"></script>
+	
+</head>
+<body class="homepageBody">
+	<!-- NAVIGATION -->
+	<header>
+		<nav class="center">			
+ 			<div>
+				<img class="logo" src="images/teaTreeLogo.png" alt="Tea Tree Creperie">
+			</div>
+			<div class="nav-collapse">
+				<ul class="navigation">
+					<li><a href="#">WELCOME</a></li>
+					<li><a href="">MENU</a></li>
+					<li><a href="">TREEHOUSE PUB</a></li>
+					<li><a href="">CONTACT</a></li>
+				</ul>
+			</div>
+			<div>
+				<ul class="socialMedia">
+					<li><a href="https://www.facebook.com/TeaTreeCreperie/?fref=ts" target="_blank"><img src="images/fb.png" alt="Facebook"></a></li>
+					<li><a href="https://www.instagram.com/teatreecreperie/?hl=en" target="_blank"><img src="images/ig.png"></a></li>
+					<li><a href="https://twitter.com/TeaTreeCreperie" target="_blank"><img src="images/twitter.png"></a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<!-- OPENING HOURS -->
+		<section class="openingHours center">
+			<div class="openingHourBorder">
+				<h5>Opening Hours</h5>
+				<img class="brLunchDin" src="images/bldd.png" alt="Breakfast . Lunch . Dinner . Drinks">
+				<ul class="times">
+					<li>Mon - Tue: 8am - 10pm</li>
+					<li>Wed - Fri: 8am - midnight</li>
+					<li>Sat: 9am - midnight</li>
+					<li>Sun: 9am - 7pm</li>
+				</ul>
+				<div>
+					<a href="#"><img class="treehouseLogoLink" src="images/treehouse.png" alt="Treehouse Pub and Lounge"></a>
+				</div>
+				<div>
+					<a href="#"><img class="menuButton" src="images/menuButton.png" alt="View Menu Button"></a>
+				</div>
+			</div>
+		</section>
+
+		<!-- MEDIA MENTIONS -->
+		<section class="center">
+			<div class="mediaMentions">
+				<a href="http://www.kingstonkitchenja.com/more-tea-time-treats/" target="_blank"><img src="images/kgnKitchen.png" alt="Kingston Kitchen Article"></a>
+				<a href="http://jamaica-gleaner.com/gleaner/20111215/cook/cook1.html" target="_blank"><img src="images/gleaner.png" alt="The Gleaner"></a>
+				<a href="http://yum-yumjamaica.blogspot.ca/2012/12/tea-tree-creperie-smooth-hot-chocolate.html#!/2012/12/tea-tree-creperie-smooth-hot-chocolate.html" target="_blank"><img src="images/yumyum.png" alt="Yum Yum Jamaica"></a>
+				<a href="http://www.jamaicaobserver.com/business/Kingston-s-best-kept-retail-secret_12805015" target="_blank"><img src="images/observer.png" alt="The Jamaica Observer"></a>
+				<a href="http://www.afar.com/places/tea-tree-creperie-kingston" target="_blank"><img src="images/afar.png" alt="Afar"></a>
+			</div>
+			<div class="tripAdvisor">
+				<a href="https://www.tripadvisor.ca/Restaurant_Review-g147310-d4075143-Reviews-Tea_Tree_Creperie_Treehouse_Pub-Kingston_Kingston_Parish_Jamaica.html" target="_blank"><img src="images/tripAdvisor.png" alt="Afar"></a>
+			</div>
+		</section>
+
+	</main>
+
+	<!-- Footer -->
+	<footer>
+		
+	</footer>
+
+
+	<!-- HAMBURGER MENU JS -->
+	<script>
+      var navigation = responsiveNav(".nav-collapse", {
+        animate: true,                    // Boolean: Use CSS3 transitions, true or false
+        transition: 284,                  // Integer: Speed of the transition, in milliseconds
+        label: "",                    // String: Label for the navigation toggle
+        insert: "before",                  // String: Insert the toggle before or after the navigation
+        customToggle: "",                 // Selector: Specify the ID of a custom toggle
+        closeOnNavClick: true,           // Boolean: Close the navigation when one of the links are clicked
+        openPos: "relative",              // String: Position of the opened nav, relative or static
+        navClass: "nav-collapse",         // String: Default CSS class. If changed, you need to edit the CSS too!
+        navActiveClass: "js-nav-active",  // String: Class that is added to <html> element when nav is active
+        jsClass: "js",                    // String: 'JS enabled' class which is added to <html> element
+        init: function(){},               // Function: Init callback
+        open: function(){},               // Function: Open callback
+        close: function(){}               // Function: Close callback
+      });
+    </script>
+</body>
+</html>
