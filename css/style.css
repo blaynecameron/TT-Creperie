@@ -328,7 +328,7 @@ nav {
 	min-height: 1900px;
 }
 
-@media (min-width: 300px) and (max-width: 560px) {
+@media (min-width: 300px) and (max-width: 558px) {
 	.homepageBody {
 		background: url('../images/homepageMobileBackground.png');
 		background-repeat:no-repeat;
