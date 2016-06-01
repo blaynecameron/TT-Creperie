@@ -7,13 +7,6 @@ body {
 	/*background-size:contain;*/
 }
 
-.homepageBody {
-	background: url('../images/background.png');
-	background-repeat:no-repeat;
-	background-position:center;
-	min-height: 1900px;
-}
-
 h2 {
 	font-size: 28px;
 	font-weight: normal;
@@ -327,7 +320,28 @@ nav {
   content:"x";
 }
 
+/* WELCOME PAGE */
+.homepageBody {
+	background: url('../images/background.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	min-height: 1900px;
+}
+
+@media (min-width: 300px) and (max-width: 560px) {
+	.homepageBody {
+		background: url('../images/homepageMobileBackground.png');
+		background-repeat:no-repeat;
+		background-position:center;
+		min-height: 800px;
+	}
+}
+
 /* OPENING HOURS */
+.openingHourBorder {
+		margin: 0 auto; /* centers the border */
+	}
+
 h5 {
 	font-family: "Delius Swash Caps";
 	font-size: 48px;
