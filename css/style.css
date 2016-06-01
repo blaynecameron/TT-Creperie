@@ -1,0 +1,441 @@
+html, body {
+	overflow-x: hidden;
+}
+
+body {
+	color: #545454;
+	/*background-size:contain;*/
+}
+
+.homepageBody {
+	background: url('../images/background.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	min-height: 1900px;
+}
+
+h2 {
+	font-size: 28px;
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: 100px;
+}
+
+a {
+	text-decoration: none;
+	color: #404040;
+}
+
+li {
+	list-style: none;
+}
+
+.center {
+	text-align: center;
+}
+
+/* GRID */
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+}
+
+.container:before,
+.container:after {
+	content: " ";
+	display: table; /* the content is split up into gird 1/2, 1/3, 1/4 this tells the html to layout as a table before/after elements in class container */
+}
+
+.container:after {
+	clear: both;
+}
+
+.one, .one-half, .one-third, .one-fourth {
+	width: 96%;
+	float: left;
+	position: relative;
+	min-height: 1px;
+	margin: 0 2% 20px;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 300px) {
+	.one {
+		width: 70%;
+		text-align: center;
+	}
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
+	.navigation ul {
+		display: inline-block;	
+	}
+
+	.one-half {
+		width: 46%;
+	}
+}
+
+@media (min-width: 768px) {
+	/*.container {
+		width: 750px;
+	}*/
+
+	.one-half {
+		width: 46%;
+	}
+}
+
+@media (min-width: 992px) {
+	/*.container {
+		width: 970px;
+	}*/
+
+
+	.one-half {
+		width: 46%;
+	}
+
+	.one-third {
+		width: 29.33333%;
+	}
+
+	.one-fourth {
+		width: 21%;
+	}
+}
+
+@media (min-width: 1200px) {
+	/*.container {
+		width: 1170px;
+	}*/
+}
+
+
+/* HEADER */
+nav {
+	margin-top: 100px;
+}
+
+.navigation,
+.socialMedia {
+	font-family: "Itim";
+	list-style: none;
+}
+
+.socialMedia li {
+	display: inline;
+	display: inline-block;
+}
+
+.socialMedia {
+	margin-top: 35px;
+}
+
+.socialMedia li {
+	margin-right: 50px
+}
+
+@media (min-width: 300px) and (max-width: 605px) {
+	.logo {
+		width: 280px;
+	}
+
+	.socialMedia {
+		margin-top: 25px;
+	}
+
+	.socialMedia li {
+		margin-right: 30px
+	}
+}
+
+@media (min-width: 605px) {
+	.navigation {
+		margin-left: -4%
+	}
+
+	.navigation li {
+		display: inline;
+		display: inline-block;
+		margin-left: 20px;
+	}
+}
+
+@media (min-width: 768px) {
+	.navigation {
+		font-size: 20px;
+	}
+
+	.navigation li {
+		margin-left: 20px;
+	}
+}
+
+/* HAMBURGER MENU */
+@media (min-width: 300px) and (max-width: 605px) {
+	.fixed {
+  		position: fixed;
+  		width: 100%;
+  		top: 0;
+  		left: 0;
+	}
+
+	.nav-collapse {
+		margin-top: -160px;
+	}
+
+	.nav-collapse,
+	.nav-collapse ul {
+  		list-style: none;
+  		width: 100%;
+  		float: left;
+	}
+
+	.nav-collapse li {
+  		float: left;
+ 		width: 100%;
+	}
+
+	.nav-collapse a {
+  		color: #fff;
+  		text-decoration: none;
+  		width: 100%;
+  		background: #212121;
+  		/*border-bottom: 1px solid white;*/
+  		/*padding: 0.7em 1em;*/
+  		float: left;
+	}
+
+	.nav-collapse li {
+   		width: 25%;
+    	*width: 24.9%; /* IE7 Hack */
+    	_width: 19%; /* IE6 Hack */
+  	}
+
+  	.nav-collapse a {
+    	margin: 0;
+    	padding: 10px 0;
+    	float: left;
+    	text-align: center;
+    	border-bottom: 0;
+    	border-right: 1px solid white;
+  	}
+}
+
+@media (min-width: 605px) {
+	.nav-collapse {
+		margin-top: 20px;
+	}
+}
+
+
+/*.nav-collapse,
+.nav-collapse * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}*/
+
+
+/*@media screen and (min-width: 40em) {
+  .nav-collapse a {
+    margin: 0;
+    padding: 1em;
+    float: left;
+    text-align: center;
+    border-bottom: 0;
+    border-right: 1px solid white;
+  }
+}*/
+
+/*.nav-collapse ul ul a {
+  background: #ca3716;
+  padding-left: 2em;
+}*/
+
+/*@media screen and (min-width: 40em) {
+  .nav-collapse ul ul a {
+    display: none;
+  }
+}*/
+
+
+/* ------------------------------------------
+  NAV TOGGLE STYLES
+--------------------------------------------- */
+
+@font-face {
+  font-family: "responsivenav";
+  src:url("../icons/responsivenav.eot");
+  src:url("../icons/responsivenav.eot?#iefix") format("embedded-opentype"),
+    url("../icons/responsivenav.ttf") format("truetype"),
+    url("../icons/responsivenav.woff") format("woff"),
+    url("../icons/responsivenav.svg#responsivenav") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.nav-toggle {
+  /*position: fixed;*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /*text-decoration: none;*/
+  /*text-indent: -999px;*/
+  /*position: relative;*/
+  /*overflow: hidden;*/
+  /*width: 70px;*/
+  /*height: 55px;*/
+  /*float: right;*/
+}
+
+.nav-toggle:before {
+  color: white; /* Edit this to change the icon color */
+  background: #212121;
+  font-family: "responsivenav", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 50px;
+  text-transform: none;
+  position: absolute;
+  content: "≡";
+  text-indent: 0;
+  text-align: center;
+  line-height: 55px;
+  speak: none;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav-toggle.active::before {
+  font-size: 24px;
+  content:"x";
+}
+
+/* OPENING HOURS */
+.openingHours {
+	background: url('../images/openingHoursLeafBurst.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	min-height: 1020px;
+	min-width: 80%;
+	padding-top: 10px;
+}
+
+.openingHourBorder {
+	border-style: double;
+	border-width: 8px;
+	border-color: #F8F6F6;
+	background-color: white;
+	margin: 0 auto; /* centers the border */
+	margin-top: 150px;
+	width: 520px;
+	height: 720px;
+}
+
+h5 {
+	font-family: "Delius Swash Caps";
+	font-size: 48px;
+	margin-bottom: 20px;
+	margin-top: 70px;
+}
+
+.times {
+	margin-top: 50px;
+	font-family: "Itim";
+	font-size: 23px;
+	margin-left: -9%;
+}
+
+.times li {
+	margin-bottom: 35px;
+}
+
+.treehouseLogoLink {
+	margin: 20px 0 40px 0;
+}
+
+.mediaMentions a {
+	margin-right: 35px;
+}
+
+.mediaMentions img {
+	vertical-align: middle;
+	margin-bottom: 30px;
+}
+
+.tripAdvisor {
+	margin-top: 10px;
+}
+
+@media (min-width: 300px) and (max-width: 560px) {
+	h5 {
+		font-size: 38px;
+		margin-bottom: 16px;
+	}
+	.openingHours {
+		min-height: 950px;
+	}
+
+	.openingHourBorder {
+		
+		width: 96%;
+		height: 680px;
+	}
+
+	.brLunchDin {
+		width: 330px;
+	}
+
+	.times {
+		font-size: 20px;
+	}
+
+	.times li {
+		margin-bottom: 30px;
+	}
+
+	.mediaMentions a {
+		margin-right: 20px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
