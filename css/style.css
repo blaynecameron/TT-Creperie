@@ -328,28 +328,9 @@ nav {
 	min-height: 1900px;
 }
 
-@media (min-width: 300px) and (max-width: 400px) {
-	.homepageBody {
-		background: url('../images/homepageMobileBackgroundTwo.png');
-		background-repeat:no-repeat;
-		background-position:center;
-		min-height: 800px;
-	}
-}
-
-@media (min-width: 400px) and (max-width: 558px) {
-	.homepageBody {
-		background: url('../images/homepageMobileBackground.png');
-		background-repeat:no-repeat;
-		background-position:center;
-		min-height: 800px;
-	}
-}
-
-/* OPENING HOURS */
 .openingHourBorder {
-		margin: 0 auto; /* centers the border */
-	}
+	margin: 0 auto; /* centers the border */
+}
 
 h5 {
 	font-family: "Delius Swash Caps";
@@ -384,6 +365,24 @@ h5 {
 
 .tripAdvisor {
 	margin-top: 10px;
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+	.homepageBody {
+		background: url('../images/homepageMobileBackgroundTwo.png');
+		background-repeat:no-repeat;
+		background-position:center;
+		min-height: 800px;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 558px) {
+	.homepageBody {
+		background: url('../images/homepageMobileBackground.png');
+		background-repeat:no-repeat;
+		background-position:center;
+		min-height: 800px;
+	}
 }
 
 @media (min-width: 300px) and (max-width: 560px) {
