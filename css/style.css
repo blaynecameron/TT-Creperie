@@ -365,7 +365,7 @@ h5 {
 
 .tripAdvisor {
 	margin-top: 10px;
-	margin-bottom: 17%;
+	margin-bottom: 20%;
 }
 
 @media (min-width: 300px) and (max-width: 400px) {
@@ -373,7 +373,7 @@ h5 {
 		background: url('../images/homepageMobileBackgroundTwo.png');
 		background-repeat:no-repeat;
 		background-position:center;
-		min-height: 800px;
+		min-height: 900px;
 	}
 }
 
@@ -381,8 +381,8 @@ h5 {
 	.homepageBody {
 		background: url('../images/homepageMobileBackground.png');
 		background-repeat:no-repeat;
-		background-position:center;
-		min-height: 800px;
+		background-position:center top;
+		min-height: 1000px;
 	}
 }
 
