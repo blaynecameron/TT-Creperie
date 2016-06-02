@@ -395,7 +395,7 @@ h5 {
 
 @media (min-width: 300px) and (max-width: 400px) {
 	.homepageBody {
-		/*background: url('../images/homepageMobileBackgroundTwo.png');*/
+		background: url('../images/homepageMobileBackgroundTwo.png');
 		background-repeat:no-repeat;
 		background-position:center top;
 		min-height: 900px;
@@ -411,19 +411,25 @@ h5 {
 	}
 }
 
-@media (min-width: 300px) and (max-width: 560px) {
+@media (min-width: 300px) and (max-width: 557px) {
+	.openingHourBorder {
+		border-style: double;
+		border-width: 8px;
+		border-color: #F8F6F6;
+		background-color: white;
+		margin-top: 60px;
+		width: 85%;
+		height: 450px;
+	}
+
 	h5 {
 		font-size: 25px;
 		margin-bottom: 10px;
+		margin-top: 50px;
 	}
 
 	.openingHours {
-		margin-bottom: -150px;
-	}
-
-	.openingHourBorder {
-		width: 96%;
-		height: 600px;
+		margin-bottom: 50px;
 	}
 
 	.brLunchDin {
@@ -454,7 +460,7 @@ h5 {
 	}
 }
 
-@media (min-width: 560px) {
+@media (min-width: 558px) {
 	.openingHours {
 		background: url('../images/openingHoursLeafBurst.png');
 		background-repeat:no-repeat;
@@ -470,7 +476,6 @@ h5 {
 		border-width: 8px;
 		border-color: #F8F6F6;
 		background-color: white;
-		margin: 0 auto; /* centers the border */
 		margin-top: 150px;
 		width: 520px;
 		height: 720px;
