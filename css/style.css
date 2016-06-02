@@ -429,7 +429,7 @@ h5 {
 	}
 
 	.openingHours {
-		margin-bottom: 50px;
+		margin-bottom: 60px;
 	}
 
 	.brLunchDin {
@@ -483,6 +483,11 @@ h5 {
 }
 
 
+/* MENU-BREAKFAST */
+.menu {
+	font-family: "servus-slab";
+	font-weight: 400;
+}
 
 
 
