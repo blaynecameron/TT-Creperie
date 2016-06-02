@@ -392,6 +392,10 @@ h5 {
 		margin-bottom: 16px;
 	}
 
+	.openingHours {
+		margin-bottom: -80px;
+	}
+
 	.openingHourBorder {
 		width: 96%;
 		height: 680px;
@@ -431,6 +435,7 @@ h5 {
 		min-height: 1020px;
 		min-width: 80%;
 		padding-top: 10px;
+		margin-bottom: 0px;
 	}
 
 	.openingHourBorder {
