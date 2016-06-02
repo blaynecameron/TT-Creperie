@@ -389,7 +389,7 @@ h5 {
 @media (min-width: 300px) and (max-width: 560px) {
 	h5 {
 		font-size: 30px;
-		margin-bottom: 16px;
+		margin-bottom: 10px;
 	}
 
 	.openingHours {
@@ -398,7 +398,7 @@ h5 {
 
 	.openingHourBorder {
 		width: 96%;
-		height: 680px;
+		height: 600px;
 	}
 
 	.brLunchDin {
@@ -407,17 +407,20 @@ h5 {
 
 	.times {
 		font-size: 20px;
+		margin-top: 30px;
 	}
 
 	.times li {
-		margin-bottom: 25px;
+		margin-bottom: 15px;
 	}
 
 	.treehouseLogoLink {
 		width: 180px;
+		margin-top: 10px;
 	}
 
 	.menuButton {
+		margin-top: -5px;
 		width: 240px;
 	}
 
