@@ -139,15 +139,19 @@ nav {
 
 @media (min-width: 300px) and (max-width: 605px) {
 	.logo {
-		width: 280px;
+		width: 220px;
 	}
 
 	.socialMedia {
-		margin-top: 25px;
+		margin-top: 15px;
 	}
 
 	.socialMedia li {
 		margin-right: 30px
+	}
+
+	.socialMedia li img {
+		height: 25px;
 	}
 }
 
@@ -320,6 +324,27 @@ nav {
   content:"x";
 }
 
+/* FOOTER */
+footer p {
+	margin-top: 250px;
+	font-size: 14px;
+}
+
+@media (min-width: 300px) and (max-width: 558px) {
+	footer p {
+		margin-top: 100px;
+		font-size: 12px;
+	}
+}
+
+@media (min-width: 558px) and (max-width: 950px) {
+	footer p {
+		margin-top: 180px;
+		font-size: 12px;
+	}
+}
+
+
 /* WELCOME PAGE */
 .homepageBody {
 	background: url('../images/background.png');
@@ -365,12 +390,12 @@ h5 {
 
 .tripAdvisor {
 	margin-top: 10px;
-	margin-bottom: 16%;
+	/*margin-bottom: 16%;*/
 }
 
 @media (min-width: 300px) and (max-width: 400px) {
 	.homepageBody {
-		background: url('../images/homepageMobileBackgroundTwo.png');
+		/*background: url('../images/homepageMobileBackgroundTwo.png');*/
 		background-repeat:no-repeat;
 		background-position:center top;
 		min-height: 900px;
