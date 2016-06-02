@@ -32,6 +32,13 @@ li {
 	text-align: center;
 }
 
+/* FONTS */
+ @font-face { 
+ 	font-family: Servus; 
+ 	src: url('../fonts/Servus_text_display.otf'); 
+ } 
+
+
 /* GRID */
 .container {
 	margin-right: auto;
@@ -484,9 +491,11 @@ h5 {
 
 
 /* MENU-BREAKFAST */
-.menu {
-	font-family: "servus-slab";
-	font-weight: 400;
+h1 {
+	font-family: Servus;
+	/*font-weight: 500;*/
+	font-size: 25px;
+	color: #972200;
 }
 
 
