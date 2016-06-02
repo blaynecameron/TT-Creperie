@@ -413,7 +413,7 @@ h5 {
 
 @media (min-width: 300px) and (max-width: 560px) {
 	h5 {
-		font-size: 30px;
+		font-size: 25px;
 		margin-bottom: 10px;
 	}
 
@@ -427,32 +427,31 @@ h5 {
 	}
 
 	.brLunchDin {
-		width: 330px;
+		width: 280px;
 	}
 
 	.times {
-		font-size: 20px;
+		font-size: 16px;
 		margin-top: 30px;
 	}
 
 	.times li {
-		margin-bottom: 15px;
+		margin-bottom: 13px;
 	}
 
 	.treehouseLogoLink {
-		width: 180px;
+		width: 150px;
 		margin-top: 10px;
 	}
 
 	.menuButton {
 		margin-top: -5px;
-		width: 240px;
+		width: 200px;
 	}
 
 	.mediaMentions a {
 		margin-right: 20px;
 	}
-
 }
 
 @media (min-width: 560px) {
