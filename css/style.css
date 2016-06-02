@@ -7,18 +7,6 @@ body {
 	/*background-size:contain;*/
 }
 
-h2 {
-	font-size: 28px;
-	font-weight: normal;
-	margin-bottom: 5px;
-}
-
-p {
-	font-size: 16px;
-	line-height: 19px;
-	font-weight: 100px;
-}
-
 a {
 	text-decoration: none;
 	color: #404040;
@@ -491,12 +479,32 @@ h5 {
 
 
 /* MENU-BREAKFAST */
-h1 {
+.menu {
 	font-family: Servus;
-	/*font-weight: 500;*/
+}
+
+.menu div {
+	margin-top: 50px;	
+}
+
+.menu h1 {
 	font-size: 25px;
+	margin-bottom: -10px;
+}
+
+.menu p {
+	line-height: 25px;
+	font-size: 18px;
+}
+
+.breakfast h1 {
 	color: #972200;
 }
+
+.breakfast p {
+	color: #FF4C00;
+}
+
 
 
 
