@@ -467,6 +467,7 @@ h5 {
 
 /* MENU NAVIGATION */
 .menuNavigation {
+	text-align: center;
 	margin: 35px 0 100px;
 }
 
@@ -483,15 +484,14 @@ h5 {
 	}
 
 	.menuNavigation li {
-		margin-bottom: 20px;
-		margin-right: 20px;
+		display: list-item;
+		margin-bottom: 45px;
 		font-size: 14px;
 	}
 }
 
 @media (min-width: 795px) {
 	.menuNavigation li {
-		text-align: center;
 		margin-right: 30px;
 	}
 }
