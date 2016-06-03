@@ -28,7 +28,7 @@ li {
 
 
 /* GRID */
-.container {
+.container, .breakfastBorder  {
 	margin-right: auto;
 	margin-left: auto;
 	padding-left: 15px;
@@ -37,59 +37,50 @@ li {
 }
 
 .container:before,
-.container:after {
+.container:after,
+.breakfastBorder:before,
+.breakfastBorder:after {
 	content: " ";
 	display: table; /* the content is split up into gird 1/2, 1/3, 1/4 this tells the html to layout as a table before/after elements in class container */
 }
 
-.container:after {
+.container:after,
+.breakfastBorder:after {
 	clear: both;
 }
 
-.one, .one-half, .one-third, .one-fourth {
-	width: 96%;
-	float: left;
+/*.one-half, .one-third, .one-fourth {
+	width: 100%;
+	float: right;
 	position: relative;
 	min-height: 1px;
 	margin: 0 2% 20px;
-}
+}*/
 
 /* MEDIA QUERIES */
 @media (min-width: 300px) {
-	.one {
-		width: 70%;
-		text-align: center;
-	}
+	
 }
 
 @media (min-width: 550px) and (max-width: 768px) {
-	.navigation ul {
+	/*.navigation ul {
 		display: inline-block;	
 	}
 
 	.one-half {
 		width: 46%;
-	}
+	}*/
 }
 
 @media (min-width: 768px) {
 	/*.container {
 		width: 750px;
 	}*/
-
-	.one-half {
-		width: 46%;
-	}
 }
 
 @media (min-width: 992px) {
-	/*.container {
-		width: 970px;
-	}*/
-
-
-	.one-half {
-		width: 46%;
+	/*.one-half {
+		width: 40%;
 	}
 
 	.one-third {
@@ -98,7 +89,7 @@ li {
 
 	.one-fourth {
 		width: 21%;
-	}
+	}*/
 }
 
 @media (min-width: 1200px) {
@@ -479,8 +470,13 @@ h5 {
 
 
 /* MENU-BREAKFAST */
+.breakfastBorder {
+	margin: 0 auto;
+}
+
 .menu {
 	font-family: Servus;
+	margin: 0 7% 0;
 }
 
 .menu div {
@@ -488,13 +484,13 @@ h5 {
 }
 
 .menu h1 {
-	font-size: 25px;
+	font-size: 22px;
 	margin-bottom: -10px;
 }
 
 .menu p {
 	line-height: 25px;
-	font-size: 18px;
+	font-size: 17px;
 }
 
 .breakfast h1 {
@@ -505,7 +501,45 @@ h5 {
 	color: #FF4C00;
 }
 
+.separator img {
+	margin: 60px 0 -50px;
+	width: 100%;
+}
 
+hr {
+	border: 1px solid #FCFCFC;
+	/*margin: 530px 0 0px;*/
+}
+
+@media (min-width: 1000px) {
+	/*.openingHours {
+		background: url('../images/openingHoursLeafBurst.png');
+		background-repeat:no-repeat;
+		background-position:center;
+		min-height: 1020px;
+		min-width: 80%;
+		padding-top: 10px;
+		margin-bottom: 0px;
+	}*/
+
+	.breakfastBorder {
+		border-style: double;
+		border-width: 8px;
+		border-color: #F8F6F6;
+		background-color: white;
+		/*margin: 150px;*/
+		width: 900px;
+	}
+
+	.one-half {
+		/*width: 100%;*/
+		width: 44%;
+		float: left;
+		position: relative;
+		min-height: 1px;
+		margin: 0 3% 0px;
+	}
+}
 
 
 
