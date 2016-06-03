@@ -550,11 +550,11 @@ h5 {
 
 @media (min-width: 300px) and (max-width: 558px) {
 	.title img {
-		width: 300px;
+		width: 260px;
 	}
 
 	.breakfastTitle img {
-		height: 35px;
+		height: 30px;
 	}
 }
 
@@ -578,6 +578,15 @@ h5 {
 		font-family: Servus;
 		margin: 0 2% 0;
 	}
+
+	.menu h1 {
+		font-size: 18px;
+	}	
+
+.menu p {
+	line-height: 20px;
+	font-size: 15px;
+}
 }
 
 @media (min-width: 900px) {
