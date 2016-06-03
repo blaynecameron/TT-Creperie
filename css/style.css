@@ -156,7 +156,7 @@ nav {
 	}
 
 	.navigation li {
-		margin-left: 20px;
+		margin-left: 30px;
 	}
 }
 
@@ -468,7 +468,7 @@ h5 {
 /* MENU NAVIGATION */
 .menuNavigation {
 	text-align: center;
-	margin: 50px 0 100px;
+	margin: 35px 0 100px;
 }
 
 .menuNavigation li {
@@ -476,6 +476,13 @@ h5 {
 	margin-right: 30px;
 	font-family: "Itim";
 	font-size: 16px;
+}
+
+@media (min-width: 300px) and (max-width: 558px) {
+	.menuNavigation li {
+		display: list-item;
+		margin-bottom: 20px;
+	}
 }
 
 /* MENU-BREAKFAST */
