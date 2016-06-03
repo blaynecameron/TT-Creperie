@@ -211,6 +211,7 @@ nav {
   	width: 100%;
   	top: 0;
   	left: 0;
+  	z-index: 1000;
   	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
   	-webkit-touch-callout: none;
