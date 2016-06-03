@@ -478,10 +478,14 @@ h5 {
 	font-size: 16px;
 }
 
-@media (min-width: 300px) and (max-width: 558px) {
+@media (min-width: 300px) and (max-width: 795px) {
+	.menuNavigation {
+		margin-bottom: 50px;
+	}
+
 	.menuNavigation li {
-		display: list-item;
 		margin-bottom: 20px;
+		font-size: 12px;
 	}
 }
 
