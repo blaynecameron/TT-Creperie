@@ -513,7 +513,7 @@ h5 {
 }
 
 .menuItems h1 {
-	margin-top: 30px;
+	margin-top: 45px;
 }
 
 .breakfastTitle img {
@@ -529,6 +529,23 @@ h5 {
 	margin: 55px 0 15px;
 }
 
+@media (min-width: 300px) and (max-width: 558px) {
+	.title img {
+		width: 300px;
+	}
+}
+
+@media (min-width: 300px) and (max-width: 900px) {
+	.one-half {
+		width: 100%;
+		text-align: center; 
+	}
+
+	.breakfastTitle {
+		text-align: center;
+	}
+}
+
 @media (min-width: 300px) and (max-width: 950px) {
 	.menuBorder {
 		width: 85%;
@@ -537,10 +554,6 @@ h5 {
 	.menu {
 		font-family: Servus;
 		margin: 0 2% 0;
-	}
-
-	.one-half {
-		/*margin: 0 1% 0px;*/
 	}
 }
 
