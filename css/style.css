@@ -121,9 +121,13 @@ nav {
 	.fixed {
   		position: fixed;
   		width: 100%;
-  		/*top: 0;*/
+  		top: 0;
   		left: 0;
-  		z-index: 200;
+	}
+
+	.nav-collapse {
+		position: fixed;
+		top: 0;
 	}
 
 	.nav-collapse {
@@ -215,10 +219,7 @@ nav {
 }
 
 .nav-toggle {
-  position: fixed;
-  top: 0;
-  float: left;
-  z-index: 1000;
+  /*position: fixed;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-touch-callout: none;
@@ -253,7 +254,6 @@ nav {
   width: 100%;
   top: 0;
   left: 0;
-  position: fixed;
 }
 
 .nav-toggle.active::before {
