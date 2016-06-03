@@ -28,7 +28,7 @@ li {
 
 
 /* GRID */
-.container, .breakfastBorder  {
+.menuBorder  {
 	margin-right: auto;
 	margin-left: auto;
 	padding-left: 15px;
@@ -36,16 +36,13 @@ li {
 	position: relative;
 }
 
-.container:before,
-.container:after,
-.breakfastBorder:before,
-.breakfastBorder:after {
+.menuBorder:before,
+.menuBorder:after {
 	content: " ";
 	display: table; /* the content is split up into gird 1/2, 1/3, 1/4 this tells the html to layout as a table before/after elements in class container */
 }
 
-.container:after,
-.breakfastBorder:after {
+.menuBorder:after {
 	clear: both;
 }
 
@@ -468,19 +465,33 @@ h5 {
 	}
 }
 
+/* MENU NAVIGATION */
+.menuNavigation {
+	text-align: center;
+	margin: 50px 0 100px;
+}
+
+.menuNavigation li {
+	display: inline-block;
+	margin-right: 30px;
+	font-family: "Itim";
+	font-size: 16px;
+}
 
 /* MENU-BREAKFAST */
-.breakfastBorder {
+.menuBorder {
 	margin: 0 auto;
+	margin-top: 12%;
+	border-style: double;
+	border-width: 8px;
+	border-color: #F8F6F6;
+	background-color: white;
+	width: 900px;
 }
 
 .menu {
 	font-family: Servus;
 	margin: 0 7% 0;
-}
-
-.menu div {
-	margin-top: 50px;	
 }
 
 .menu h1 {
@@ -501,17 +512,39 @@ h5 {
 	color: #FF4C00;
 }
 
+.menuItems h1 {
+	margin-top: 30px;
+}
+
+.breakfastTitle img {
+	margin-top: 60px;
+}
+
+.marginbottom {
+	margin-bottom: 200px;
+}
+
 .separator img {
-	margin: 60px 0 -50px;
-	width: 100%;
+	width: 99%;
+	margin: 55px 0 15px;
 }
 
-hr {
-	border: 1px solid #FCFCFC;
-	/*margin: 530px 0 0px;*/
+@media (min-width: 300px) and (max-width: 950px) {
+	.menuBorder {
+		width: 85%;
+	}
+
+	.menu {
+		font-family: Servus;
+		margin: 0 2% 0;
+	}
+
+	.one-half {
+		/*margin: 0 1% 0px;*/
+	}
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 900px) {
 	/*.openingHours {
 		background: url('../images/openingHoursLeafBurst.png');
 		background-repeat:no-repeat;
@@ -522,13 +555,10 @@ hr {
 		margin-bottom: 0px;
 	}*/
 
-	.breakfastBorder {
-		border-style: double;
-		border-width: 8px;
-		border-color: #F8F6F6;
-		background-color: white;
-		/*margin: 150px;*/
-		width: 900px;
+	.one {
+		width: 88%;
+		float: left;
+		margin: 0 3% 0px;
 	}
 
 	.one-half {
