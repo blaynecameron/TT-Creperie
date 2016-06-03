@@ -118,6 +118,14 @@ nav {
 
 /* HAMBURGER MENU */
 @media (min-width: 300px) and (max-width: 605px) {
+	.fixed {
+  		position: fixed;
+  		width: 100%;
+  		/*top: 0;*/
+  		left: 0;
+  		z-index: 200;
+	}
+
 	.nav-collapse {
 		margin-top: -180px;
 	}
@@ -207,51 +215,50 @@ nav {
 }
 
 .nav-toggle {
-  	position: fixed;
-  	width: 100%;
-  	top: 0;
-  	left: 0;
-  	z-index: 1000;
-  	-webkit-font-smoothing: antialiased;
-  	-moz-osx-font-smoothing: grayscale;
-  	-webkit-touch-callout: none;
- 	-webkit-user-select: none;
- 	-moz-user-select: none;
-  	-ms-user-select: none;
-  	user-select: none;
-  	/*text-decoration: none;*/
-  	/*text-indent: -999px;*/
-  	/*position: relative;*/
-  	/*overflow: hidden;*/
-  	/*width: 70px;*/
-  	/*height: 55px;*/
-  	/*float: right;*/
+  position: fixed;
+  top: 0;
+  float: left;
+  z-index: 1000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /*text-decoration: none;*/
+  /*text-indent: -999px;*/
+  /*position: relative;*/
+  /*overflow: hidden;*/
+  /*width: 70px;*/
+  /*height: 55px;*/
+  /*float: right;*/
 }
 
 .nav-toggle:before {
-  	color: white; /* Edit this to change the icon color */
- 	background: #212121;
-  	font-family: "responsivenav", sans-serif;
-  	font-style: normal;
-  	font-weight: normal;
-  	font-variant: normal;
-  	font-size: 50px;
-  	text-transform: none;
-  	position: absolute;
-  	content: "≡";
-  	text-indent: 0;
-  	text-align: center;
-  	line-height: 55px;
-  	speak: none;
-  	width: 100%;
-  	top: 0;
-  	left: 0;
+  color: white; /* Edit this to change the icon color */
+  background: #212121;
+  font-family: "responsivenav", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 50px;
+  text-transform: none;
+  position: absolute;
+  content: "≡";
+  text-indent: 0;
+  text-align: center;
+  line-height: 55px;
+  speak: none;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
 }
 
 .nav-toggle.active::before {
-  	font-size: 24px;
-  	content:"x";
-
+  font-size: 24px;
+  content:"x";
 }
 
 /* FOOTER */
