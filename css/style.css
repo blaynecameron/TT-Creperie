@@ -556,6 +556,16 @@ h5 {
 	.breakfastTitle img {
 		height: 30px;
 	}
+
+	
+	.menu h1 {
+		font-size: 18px;
+	}	
+
+	.menu p {
+		line-height: 20px;
+		font-size: 15px;
+	}
 }
 
 @media (min-width: 300px) and (max-width: 900px) {
@@ -578,15 +588,6 @@ h5 {
 		font-family: Servus;
 		margin: 0 2% 0;
 	}
-
-	.menu h1 {
-		font-size: 18px;
-	}	
-
-.menu p {
-	line-height: 20px;
-	font-size: 15px;
-}
 }
 
 @media (min-width: 900px) {
