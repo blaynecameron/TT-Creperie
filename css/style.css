@@ -48,7 +48,7 @@ li {
 
 /* HEADER */
 nav {
-	margin-top: 50px;
+	margin-top: 45px;
 }
 
 .navigation,
@@ -58,7 +58,7 @@ nav {
 }
 
 .socialMedia {
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 }
 
 .socialMedia li {
@@ -75,6 +75,10 @@ nav {
 	height: 22px;
 }
 
+.logo {
+	margin-top: 100px;
+}
+
 @media (min-width: 300px) and (max-width: 605px) {
 	.logo {
 		width: 220px;
@@ -82,7 +86,7 @@ nav {
 
 	.socialMedia {
 		text-align: center;
-		margin: 100px 0 20px;
+		margin: 100px 0 -80px;
 	}
 
 	.socialMedia li {
@@ -103,6 +107,14 @@ nav {
 		display: inline;
 		display: inline-block;
 		margin-left: 20px;
+		padding-bottom: 2px;
+	}
+
+	.twelcome,
+	.tmenu,
+	.treehouse,
+	.tcontact {
+		border-bottom: 3px solid #36DA36;
 	}
 }
 
@@ -127,7 +139,7 @@ nav {
 	}
 
 	.nav-collapse {
-		margin-top: -180px;
+		margin-top: -179px;
 		top: 0;
 		position: fixed;
 	}
@@ -423,19 +435,33 @@ h5 {
 /* MENU NAVIGATION */
 .menuNavigation {
 	text-align: center;
-	margin: 35px 0 100px;
+	margin: 35px 0 75px;
 }
 
 .menuNavigation li {
 	display: inline-block;
 	margin-right: 30px;
+	margin-bottom: 15px;
 	font-family: "Itim";
 	font-size: 16px;
 }
 
-@media (min-width: 300px) and (max-width: 795px) {
+.tappetizers,
+.tcrepes,
+.tbreakfast,
+.tlunch,
+.tdessert,
+.tbeverages {
+	border-bottom: 3px solid #36DA36;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
 	.menuNavigation {
 		margin-bottom: 80px;
+	}
+
+	.menuNavigation ul {
+		margin: 0 20% 0;
 	}
 
 	.menuNavigation li {
@@ -444,6 +470,25 @@ h5 {
 		font-size: 18px;
 	}
 }
+
+@media (min-width: 300px) and (max-width: 400px) {
+	.menuNavigation ul {
+		margin: 0 20% 0;
+	}
+}
+
+/*@media (min-width: 600px) and (max-width: 698px) {
+	.menuNavigation ul {
+		margin: 0 28% 0;
+	}
+}
+
+@media (min-width: 698px) and (max-width: 795px) {
+	.menuNavigation ul {
+		margin: 0 35% 0;
+	}
+}*/
+
 
 @media (min-width: 795px) {
 	.menuNavigation li {
@@ -504,7 +549,7 @@ h5 {
 }
 
 .breakfastTitle img {
-	margin-top: 60px;
+	margin-top: 50px;
 	margin-bottom: -30px;
 }
 
@@ -560,8 +605,6 @@ h5 {
 }
 
 @media (min-width: 900px) {
-	
-
 	.one {
 		width: 88%;
 		float: left;
@@ -579,14 +622,14 @@ h5 {
 }
 
 .menuBurst {
-		background: url('../images/breakfastBurst.png');
-		background-repeat:no-repeat;
-		background-position:center;
-		/*min-height: 1020px;*/
-		min-width: 80%;
-		padding-top: 10px;
-		margin-bottom: 0px;
-	}
+	background: url('../images/breakfastBurst.png');
+	background-repeat:no-repeat;
+	background-position:center top;
+	/*min-height: 1020px;*/
+	min-width: 80%;
+	/*padding-top: ;*/
+	/*margin-bottom: 0px;*/
+}
 
 
 

@@ -35,8 +35,8 @@
 				<a href="index.html"><img class="logo" src="images/teaTreeLogo.png" alt="Tea Tree Creperie"></a>
 			</div>
 			<div class="nav-collapse">
-				<ul class="navigation">
-					<li><a href="index.html">WELCOME</a></li>
+				<ul class="navigation fixed">
+					<li class="twelcome"><a href="index.html">WELCOME</a></li>
 					<li><a href="menu-breakfast.html">MENU</a></li>
 					<li><a href="">TREEHOUSE PUB</a></li>
 					<li><a href="">CONTACT</a></li>
@@ -93,7 +93,7 @@
 	<script>
       var navigation = responsiveNav(".nav-collapse", {
         animate: true,                    // Boolean: Use CSS3 transitions, true or false
-        transition: 284,                  // Integer: Speed of the transition, in milliseconds
+        transition: 0,                  // Integer: Speed of the transition, in milliseconds
         label: "",                    // String: Label for the navigation toggle
         insert: "before",                  // String: Insert the toggle before or after the navigation
         customToggle: "",                 // Selector: Specify the ID of a custom toggle
