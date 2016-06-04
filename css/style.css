@@ -446,12 +446,7 @@ h5 {
 	font-size: 16px;
 }
 
-.tappetizers,
-.tcrepes,
-.tbreakfast,
-.tlunch,
-.tdessert,
-.tbeverages {
+.menuNavigationUnderline {
 	border-bottom: 3px solid #36DA36;
 }
 
@@ -461,7 +456,7 @@ h5 {
 	}
 
 	.menuNavigation ul {
-		margin: 0 20% 0;
+		margin: 0 28% 0;
 	}
 
 	.menuNavigation li {
@@ -473,7 +468,13 @@ h5 {
 
 @media (min-width: 300px) and (max-width: 400px) {
 	.menuNavigation ul {
-		margin: 0 20% 0;
+		margin: 0 22% 0;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+	.menuNavigation ul {
+		margin: 0 23% 0;
 	}
 }
 
@@ -533,7 +534,7 @@ h5 {
 
 .menu p {
 	line-height: 25px;
-	font-size: 17px;
+	font-size: 16px;
 }
 
 .breakfast h1 {
@@ -553,8 +554,12 @@ h5 {
 	margin-bottom: -30px;
 }
 
+.marginTop {
+	margin-top: 40px;
+}
+
 .marginbottom {
-	margin-bottom: 200px;
+	margin-bottom: 180px;
 }
 
 .separator img {
@@ -567,11 +572,6 @@ h5 {
 		width: 260px;
 	}
 
-	.breakfastTitle img {
-		height: 30px;
-	}
-
-
 	.menu h1 {
 		font-size: 18px;
 	}	
@@ -579,6 +579,12 @@ h5 {
 	.menu p {
 		line-height: 20px;
 		font-size: 15px;
+	}
+}
+
+@media (min-width: 300px) and (max-width: 720px) {
+	.breakfastTitle img {
+		height: 30px;
 	}
 }
 
@@ -601,6 +607,10 @@ h5 {
 	.menu {
 		font-family: Servus;
 		margin: 0 2% 0;
+	}
+
+	.one {
+		text-align: center;
 	}
 }
 
@@ -631,21 +641,48 @@ h5 {
 	/*margin-bottom: 0px;*/
 }
 
+/* APPETIZERS */
+.appetizer h1 {
+	color: #003300;
+}
 
+/* BEVERAGES */
+.thirst {
+	color: #006699;
+}
 
+.coffee {
+	color: #330000;
+}
 
+.tea {
+	color: #FF6600;
+}
 
+.titleMargin {
+	margin-top: 40px;
+}
 
+/* CREPES */
+.savoury h1 {
+	color: #993300;
+}
 
+.savoury p {
+	color: #073907;
+}
 
+.sweet h1 {
+	color: #FF297F;
+}
 
+.sweet p {
+	color: #741616;
+}
 
-
-
-
-
-
-
-
+/* DESSERT */
+.dessert h1 {
+	color: #FF0973;
+}
 
 
