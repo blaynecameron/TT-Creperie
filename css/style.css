@@ -456,41 +456,12 @@ h5 {
 		margin-bottom: 80px;
 	}
 
-	.menuNavigation ul {
-		margin: 0 28% 0;
-	}
-
 	.menuNavigation li {
 		display: list-item;
 		margin-bottom: 33px;
 		font-size: 18px;
 	}
 }
-
-@media (min-width: 300px) and (max-width: 400px) {
-	.menuNavigation ul {
-		margin: 0 22% 0;
-	}
-}
-
-@media (min-width: 400px) and (max-width: 500px) {
-	.menuNavigation ul {
-		margin: 0 23% 0;
-	}
-}
-
-/*@media (min-width: 600px) and (max-width: 698px) {
-	.menuNavigation ul {
-		margin: 0 28% 0;
-	}
-}
-
-@media (min-width: 698px) and (max-width: 795px) {
-	.menuNavigation ul {
-		margin: 0 35% 0;
-	}
-}*/
-
 
 @media (min-width: 795px) {
 	.menuNavigation li {
@@ -665,6 +636,10 @@ h5 {
 }
 
 /* CREPES */
+.reduceMargin {
+	margin-top: -15px;
+}
+
 .savoury h1 {
 	color: #993300;
 }
