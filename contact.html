@@ -65,7 +65,7 @@
 		<!-- GOOGLE MAP -->
 		<section>
 			<div class="googlemap">
-				<div id="map"></div>
+				<div class="mapImage" id="map"></div>
 			</div>
 		</section>
 	</main>
@@ -100,6 +100,10 @@
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
     <script type="text/javascript">
         // When the window has finished loading create our google map below
+
+        //Resize Function
+		
+
         google.maps.event.addDomListener(window, 'load', init);
         
         function init() {
@@ -145,41 +149,6 @@
 
             infowindow.open(map,marker);
 
-            google.maps.event.addListener(marker, 'dragstart', function() {
-    			disableMovement(true);
-			});
-
-			google.maps.event.addListener(marker, 'dragend', function() {
-    			disableMovement(false);
-			});
-
-		// 	function disableMovement(disable) {
-  //   		var mapOptions;
-  //   		if (disable) {
-  //       		mapOptions = {
-  //           		draggable: false,
-  //           		scrollwheel: false,
-  //           		disableDoubleClickZoom: true,
-  //           		zoomControl: false
-  //       		};
-  //   		} else {
-  //       		mapOptions = {
-  //           		draggable: true,
-  //           		scrollwheel: true,
-  //           		disableDoubleClickZoom: false,
-  //           		zoomControl: true
-  //       		};
-  //   		}
-  //   	map.setOptions(mapOptions);
-		// }
-
-		// 	google.maps.event.addListener(marker, 'dragstart', function() {
-  //   			disableMovement(true);
-		// 	});
-
-		// 	google.maps.event.addListener(marker, 'dragend', function() {
-  //   			disableMovement(false);
-		// 	});
         }
     </script>
 </body>

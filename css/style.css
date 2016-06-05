@@ -735,11 +735,25 @@ h5 {
 
 /* CONTACT */
 .googlemap {
-	margin: 8% 10% 0;
+	margin: 8% 0 0;
+	overflow: hidden;
+	position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
 }
 
 .googlemap div {
 	margin: 0 auto;
+}
+
+.mapImage {
+	position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 
