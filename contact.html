@@ -102,9 +102,15 @@
         // When the window has finished loading create our google map below
 
         //Resize Function
-		
-
         google.maps.event.addDomListener(window, 'load', init);
+
+        // window resize
+        google.maps.event.addDomListener(window, "resize", function() {
+        	var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+   			var center = map.getCenter();
+   			google.maps.event.trigger(map, "resize");
+  			map.setCenter(center); 
+		});
         
         function init() {
             // Basic options for a simple Google Map
