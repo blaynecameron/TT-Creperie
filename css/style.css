@@ -23,8 +23,13 @@ li {
 /* FONTS */
  @font-face { 
  	font-family: Servus; 
- 	src: url('../fonts/Servus_text_display.otf'); 
+ 	src: url('../fonts/Servus_text_display.otf');
  } 
+
+ @font-face {
+ 	font-family: KG Second Chances;
+ 	src: url('../fonts/KGSecondChancesSolid.ttf');
+ }
 
 
 /* GRID */
@@ -507,12 +512,19 @@ h5 {
 	margin: 0 7% 0;
 }
 
-.menu h1 {
+.menuTreehouse {
+	font-family: KG Second Chances;
+	margin: 0 7% 0;
+}
+
+.menu h1,
+.menuTreehouse h1 {
 	font-size: 22px;
 	margin-bottom: -10px;
 }
 
-.menu p {
+.menu p,
+.menuTreehouse p {
 	line-height: 25px;
 	font-size: 16px;
 }
@@ -668,5 +680,47 @@ h5 {
 .dessert h1 {
 	color: #FF0973;
 }
+
+/* TREEHOUSE */
+.treehouseMenuTitle {
+	margin-top: 10%;
+}
+
+.pubFood h1 {
+	color: #993300;
+}
+
+.pubFood p {
+	color: #003300;
+}
+
+.red {
+	color: #ff0000;
+}
+
+.green {
+	color: #009900;
+}
+
+.orange {
+	color: #ff6600;
+}
+
+.lightgreen {
+	color: #669900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
