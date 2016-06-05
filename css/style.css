@@ -57,8 +57,10 @@ nav {
 }
 
 .navigation,
-.socialMedia {
+.socialMedia,
+.itim {
 	font-family: "Itim";
+	font-size: 20px;
 	list-style: none;
 }
 
@@ -734,27 +736,35 @@ h5 {
 }
 
 /* CONTACT */
-.googlemap {
-	margin: 8% 0 0;
-	overflow: hidden;
-	position: relative;
-    padding-bottom: 100%;
-    padding-top: 35px;
-    height: 0;
-    overflow: hidden;
-}
-
-.googlemap div {
+.container {
+	width: 755px;
 	margin: 0 auto;
+	padding-left: 2%;
 }
 
-.mapImage {
-	position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+.map {
+	margin-top: 8%;
 }
+
+.limegreen {
+	color: #36DA36;
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+	.itim {
+		font-size: 16px;
+	}
+
+	.container {
+		width: 100%;
+		padding-left: 0;
+	}
+
+	.map img {
+		width: 98%;
+	}
+}
+
 
 
 
