@@ -61,13 +61,15 @@ nav {
 	margin-bottom: 30px;
 }
 
-.socialMedia li {
+.socialMedia li,
+.socialMediatwo li {
 	margin-right: 30px;
 	display: inline;
 	display: inline-block;
 }
 
-.socialMedia img {
+.socialMedia img,
+.socialMediatwo img {
 	height: 25px;
 }
 
@@ -81,11 +83,20 @@ nav {
 }
 
 @media (min-width: 300px) and (max-width: 605px) {
-	.logo {
-		width: 220px;
+	.socialMedia {
+		display: none;
 	}
 
-	.socialMedia {
+	.socialMediatwo {
+		margin-top: 0px;
+	}
+
+	.logo {
+		width: 220px;
+		margin-top: 80px;
+	}
+
+	/*.socialMedia {
 		text-align: center;
 		margin: 100px 0 -80px;
 	}
@@ -96,7 +107,7 @@ nav {
 
 	.socialMedia li img {
 		height: 25px;
-	}
+	}*/
 }
 
 @media (min-width: 606px) {
@@ -111,12 +122,9 @@ nav {
 		/*padding-bottom: 2px;*/
 	}
 
-	/*.twelcome,
-	.tmenu,
-	.treehouse,
-	.tcontact {
-		border-bottom: 2px solid #36DA36;
-	}*/
+	.socialMediatwo {
+		display: none;
+	}
 }
 
 @media (min-width: 768px) {
