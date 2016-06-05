@@ -517,14 +517,12 @@ h5 {
 	margin: 0 7% 0;
 }
 
-.menu h1,
-.menuTreehouse h1 {
+.menu h1 {
 	font-size: 22px;
 	margin-bottom: -10px;
 }
 
-.menu p,
-.menuTreehouse p {
+.menu p {
 	line-height: 25px;
 	font-size: 16px;
 }
@@ -686,6 +684,16 @@ h5 {
 	margin-top: 10%;
 }
 
+.menuTreehouse h1 {
+	font-size: 20px;
+	margin-bottom: -10px;
+}
+
+.menuTreehouse p {
+	line-height: 25px;
+	font-size: 14px;
+}
+
 .pubFood h1 {
 	color: #993300;
 }
@@ -710,7 +718,20 @@ h5 {
 	color: #669900;
 }
 
+@media (min-width: 300px) and (max-width: 558px) {
+	.treehouseMenuTitle img {
+		width: 240px;
+	}
 
+	.menuTreehouse h1 {
+		font-size: 16px;
+	}	
+
+	.menuTreehouse p {
+		line-height: 16px;
+		font-size: 13px;
+	}
+}
 
 
 
