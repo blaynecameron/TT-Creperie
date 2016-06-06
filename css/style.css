@@ -360,6 +360,30 @@ h5 {
 }
 
 @media (min-width: 300px) and (max-width: 400px) {
+	.kitchen {
+		width: 55px;
+	}
+
+	.gleaner {
+		height: 40px;
+	}
+
+	.yumyum {
+		height: 18px;
+	}
+
+	.observer {
+		height: 31px;
+	}
+
+	.afar {
+		height: 20px;
+	}
+
+	.excellence {
+		width: 90px;
+	}
+
 	.homepageBody {
 		background: url('../images/homepageMobileBackgroundTwo.png');
 		background-repeat:no-repeat;
@@ -442,7 +466,7 @@ h5 {
 		border-width: 8px;
 		border-color: #F8F6F6;
 		background-color: white;
-		margin-top: 150px;
+		margin-top: 120px;
 		width: 520px;
 		height: 720px;
 	}
