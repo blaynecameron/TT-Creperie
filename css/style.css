@@ -565,7 +565,8 @@ h5 {
 	margin-top: 45px;
 }
 
-.breakfastTitle img {
+.breakfastTitle img,
+.bluemountain img {
 	margin-top: 50px;
 	margin-bottom: -30px;
 }
@@ -602,6 +603,10 @@ h5 {
 	.breakfastTitle img {
 		height: 30px;
 	}
+
+	.bluemountain img {
+		height: 28px;
+	}
 }
 
 @media (min-width: 300px) and (max-width: 900px) {
@@ -610,7 +615,8 @@ h5 {
 		text-align: center; 
 	}
 
-	.breakfastTitle {
+	.breakfastTitle,
+	.bluemountain {
 		text-align: center;
 	}
 }
