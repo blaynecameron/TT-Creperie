@@ -360,10 +360,6 @@ h5 {
 	/*margin-bottom: 16%;*/
 }
 
-.tripAdvisor a {
-	margin-right: 35px;
-}
-
 @media (min-width: 300px) and (max-width: 400px) {
 	.kitchen {
 		width: 55px;
@@ -386,7 +382,7 @@ h5 {
 	}
 
 	.excellence {
-		width: 90px;
+		height: 100px;
 	}
 }
 
@@ -399,6 +395,10 @@ h5 {
 		margin-top: 60px;
 		width: 85%;
 		height: 450px;
+	}
+
+	.tripAdvisor a {
+		margin: 0 10px 0;
 	}
 
 	h5 {
@@ -449,6 +449,12 @@ h5 {
 	.about {
 		width: 90%;
 		margin: 0 5% 0;
+	}
+}
+
+@media (min-width: 557px) {
+	.tripAdvisor a {
+		margin-left: 20px;
 	}
 }
 
