@@ -312,13 +312,6 @@ footer p {
 
 
 /* WELCOME PAGE */
-.homepageBody {
-	background: url('../images/background.png');
-	background-repeat:no-repeat;
-	background-position:center top;
-	min-height: 1900px;
-}
-
 .openingHourBorder {
 	margin: 0 auto; /* centers the border */
 }
@@ -339,6 +332,14 @@ h5 {
 
 .times li {
 	margin-bottom: 35px;
+}
+
+.about {
+	width: 66%;
+	margin: 0 17% 0;
+	font-family: Servus;
+	font-size: 20px;
+	line-height: 30px;
 }
 
 .treehouseLogoLink {
@@ -383,22 +384,6 @@ h5 {
 	.excellence {
 		width: 90px;
 	}
-
-	.homepageBody {
-		background: url('../images/homepageMobileBackgroundTwo.png');
-		background-repeat:no-repeat;
-		background-position:center top;
-		min-height: 900px;
-	}
-}
-
-@media (min-width: 400px) and (max-width: 558px) {
-	.homepageBody {
-		background: url('../images/homepageMobileBackground.png');
-		background-repeat:no-repeat;
-		background-position:center top;
-		min-height: 1000px;
-	}
 }
 
 @media (min-width: 300px) and (max-width: 557px) {
@@ -416,6 +401,12 @@ h5 {
 		font-size: 25px;
 		margin-bottom: 10px;
 		margin-top: 50px;
+	}
+
+	.about {
+		width: 94%;
+		margin: 0 3% 0;
+		font-size: 16px;
 	}
 
 	.openingHours {
@@ -447,6 +438,13 @@ h5 {
 
 	.mediaMentions a {
 		margin-right: 20px;
+	}
+}
+
+@media (min-width: 557px) and (max-width: 1000px) {
+	.about {
+		width: 90%;
+		margin: 0 5% 0;
 	}
 }
 
