@@ -360,6 +360,10 @@ h5 {
 	/*margin-bottom: 16%;*/
 }
 
+.tripAdvisor a {
+	margin-right: 35px;
+}
+
 @media (min-width: 300px) and (max-width: 400px) {
 	.kitchen {
 		width: 55px;
