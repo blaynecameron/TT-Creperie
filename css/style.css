@@ -397,10 +397,6 @@ h5 {
 		height: 450px;
 	}
 
-	.tripAdvisor a {
-		margin: 0 10px 0;
-	}
-
 	h5 {
 		font-size: 25px;
 		margin-bottom: 10px;
@@ -449,12 +445,6 @@ h5 {
 	.about {
 		width: 90%;
 		margin: 0 5% 0;
-	}
-}
-
-@media (min-width: 557px) {
-	.tripAdvisor a {
-		margin-left: 20px;
 	}
 }
 
